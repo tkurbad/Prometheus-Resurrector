@@ -1,0 +1,99 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 33d53ae6-ca40-4ded-8c70-48d7b4076e53)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 38.1 76.2) (size 53.34 34.29) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 38311116-4d0f-4f6d-a7c2-72e18303dc9e)
+    (property "Sheetname" "PCI - Part1" (at 38.1 75.4884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "sheet3.kicad_sch" (at 38.1 111.0746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Prometheus"
+        (path "/33d53ae6-ca40-4ded-8c70-48d7b4076e53" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 38.1 35.56) (size 53.34 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 95b89904-3975-4595-8c85-ce4777188442)
+    (property "Sheetname" "ZORRO" (at 38.1 34.8484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "sheet1.kicad_sch" (at 38.1 61.5446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Prometheus"
+        (path "/33d53ae6-ca40-4ded-8c70-48d7b4076e53" (page "6"))
+      )
+    )
+  )
+
+  (sheet (at 109.22 35.56) (size 55.88 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid b6cdb046-8472-4842-a2a9-834cf0dc4f0a)
+    (property "Sheetname" "CPLD_L" (at 109.22 34.8484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "sheet2.kicad_sch" (at 109.22 61.5446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Prometheus"
+        (path "/33d53ae6-ca40-4ded-8c70-48d7b4076e53" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 39.37 127) (size 52.07 29.21) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid d6ed58bd-3550-4c2e-a237-fb2bbe1e85e6)
+    (property "Sheetname" "CPLD_H" (at 39.37 126.2884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "sheet5.kicad_sch" (at 39.37 156.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Prometheus"
+        (path "/33d53ae6-ca40-4ded-8c70-48d7b4076e53" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 110.49 76.2) (size 53.34 34.29) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid f98f21f2-a946-4e14-a16e-0b21467e978c)
+    (property "Sheetname" "PCI - Part2" (at 110.49 75.4884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "sheet4.kicad_sch" (at 110.49 111.0746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Prometheus"
+        (path "/33d53ae6-ca40-4ded-8c70-48d7b4076e53" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
