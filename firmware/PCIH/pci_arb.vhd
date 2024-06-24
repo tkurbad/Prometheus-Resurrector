@@ -178,7 +178,6 @@ begin
 							end if;
 
 		-- Slot 1 stuff
---		when Z1		=>	state_x <= x"c";
 		when Z1		=>	state_x <= x"6";
 							gntz3_x <= '1';
 							if   ( REQZ3_IN = '1' ) then
@@ -209,7 +208,7 @@ begin
 									elsif( NREQ_IN(3 downto 0) = b"1101" ) then
 										NEXT_STATE <= B1;
 									else
-										NEXT_STATE <= Z0; -- no PCI requests, park Zorro III on bus
+										NEXT_STATE <= Z1; -- no PCI requests, park Zorro III on bus
 									end if;
 								end if;
 							end if;
@@ -437,7 +436,7 @@ begin
 							end if;
 		when P3		=> state_x <= x"9";
 							ngnt_x <= b"0111";
-							-- PCI 0 master state
+							-- PCI 3 master state
 							if( REQZ3_IN = '1' ) then
 								-- priorize Zorro III access
 								if( pcitout_x = '0' ) then
